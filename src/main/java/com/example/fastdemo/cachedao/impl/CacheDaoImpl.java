@@ -17,6 +17,7 @@ import com.example.fastdemo.cachedao.ICacheDao;
 public class CacheDaoImpl<T> implements ICacheDao<T> {
 
 
+
     @Autowired
     private RedisTemplate<Object, Object> redisTemplate;
 
