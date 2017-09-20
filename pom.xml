@@ -6,7 +6,7 @@
 	<groupId>com.example</groupId>
 	<artifactId>fastdemo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 
 	<name>fastdemo2</name>
 	<description>Demo project for Spring Boot</description>
@@ -61,6 +61,11 @@
 			<groupId>org.mybatis.spring.boot</groupId>
 			<artifactId>mybatis-spring-boot-starter</artifactId>
             <version>1.2.2</version>
+		</dependency>
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>fastjson</artifactId>
+			<version>1.2.38</version>
 		</dependency>
 	</dependencies>
 
